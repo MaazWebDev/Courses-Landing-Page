@@ -1,0 +1,21 @@
+body{
+    background-image: url(workplace-2303851_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    flex-basis: calc(25% - 20px); 
+    margin-bottom: 20px; 
+}
+P{
+    text-align: center;
+}
+.head{
+    color: rgb(88, 23, 173);
+}
